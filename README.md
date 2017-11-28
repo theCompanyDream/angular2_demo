@@ -1,6 +1,6 @@
 # Angular5 Project
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.4.9. I started out doing the angular 5 hero tutorial and when I'm ready I will move on and develop this into something I can show new clients or my future employer.
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.4.9. I started out doing the angular 5 hero [tutorial](https://angular.io/guide/quickstart) and when I'm ready I will move on and develop this into something I can show new clients or my future employer.
 
 ## Development server
 
