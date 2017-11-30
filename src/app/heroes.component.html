@@ -1,4 +1,10 @@
 <h2>Hall of heroes</h2>
+<div>
+  <input [(ngModel)]='this.searchableName'
+          placeholder="name" />
+    <button (click)="searchHeroes(this.searchableName)">Search</button>
+</div>
+
 <ul class="heroes">
   <li *ngFor="let hero of heroes"
   [class.selected]="hero === selectedHero"

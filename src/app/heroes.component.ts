@@ -16,6 +16,7 @@ import { HeroService } from './hero.service';
 export class HeroesComponent implements OnInit {
   title = 'Hall of heroes';
   selectedHero: Hero;
+  searchableName: '';
   heroes: Hero[];
 
   constructor(
@@ -36,6 +37,13 @@ export class HeroesComponent implements OnInit {
 
   gotoDetail(): void{
     this.router.navigate(['/detail', this.selectedHero.id]);
+  }
+
+  searchHeroes(searchableString:string): void{
+    if(searchableString)
+      this.heroService.searchHeroes(searchableString).then(heroes => this.heroes = heroes);
+    else
+      this.getHeroes();
   }
 
 }

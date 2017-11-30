@@ -14,4 +14,10 @@ export class HeroService{
     return this.getHeroes()
             .then(heroes => heroes.find(hero => hero.id === id));
   }
+
+  searchHeroes(name: string): Promise<Hero[]>{
+    return this.getHeroes()
+              .then(heroes => heroes.filter(hero => name.match(hero.name)));
+  }
+
 }
