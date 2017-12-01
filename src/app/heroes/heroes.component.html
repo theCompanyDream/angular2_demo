@@ -1,15 +1,19 @@
 <h2>Hall of heroes</h2>
 <div>
-  <input [(ngModel)]='this.searchableName'
-          placeholder="name" />
-    <button (click)="searchHeroes(this.searchableName)">Search</button>
+  <label>Hero name:
+    <input [(ngModel)]='this.searchableName'
+            placeholder="name" />
+  </label>
+    <button (click)="add(this.searchableName)">Add</button>
 </div>
 
 <ul class="heroes">
-  <li *ngFor="let hero of heroes"
-  [class.selected]="hero === selectedHero"
-  (click)="onselect(hero)">
-    <span class="badge">{{hero.id}}</span> {{hero.name}}
+  <li *ngFor="let hero of heroes">
+    <a routerLink="/detail/{{hero.id}}">
+      <span class="badge">{{hero.id}}</span> {{hero.name}}
+    </a>
+    <button class="delete" title="delete hero"
+    (click)="delete(hero)">x</button>
   </li>
 </ul>
 
