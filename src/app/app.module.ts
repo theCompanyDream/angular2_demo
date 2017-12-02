@@ -13,6 +13,8 @@ import { DashboardComponent } from './dashboard/dashboard.component';
 
 import { AppRoutingModule } from './app-routing';
 import { HeroSearchComponent } from './hero-search/hero-search.component';
+import { MessagesComponent } from './messages/messages.component';
+import { MessageService } from './message.service';
 
 @NgModule({
   imports: [
@@ -33,10 +35,11 @@ import { HeroSearchComponent } from './hero-search/hero-search.component';
     HeroDetailComponent,
     HeroesComponent,
     DashboardComponent,
-    HeroSearchComponent
+    HeroSearchComponent,
+    MessagesComponent
     ],
   providers: [
-    HeroService
+    HeroService, MessageService
   ],
   bootstrap: [AppComponent]
 })
