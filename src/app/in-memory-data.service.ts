@@ -4,6 +4,7 @@ import { HEROES } from './mock-heroes';
 
 export class InMemoryDataService implements InMemoryDbService {
   createDb() {
-    return {HEROES};
+    const heroes = HEROES;
+    return {heroes};
   }
 }
