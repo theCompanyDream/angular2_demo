@@ -1,4 +1,4 @@
-# MindFul Coding
+# Mindful Coding
 
 I get a lot of anxiety when coding sometimes it could be simple things over what to write to more complicated things like what if I break something. It's not easy to explain but sometimes coding blocks can happen. This is a reminder to myself that they can happen and that even the smallest commits can make the biggest differennces. Anyways Let's see what this becomes.
 
