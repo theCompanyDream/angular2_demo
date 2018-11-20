@@ -4,7 +4,12 @@ I get a lot of anxiety when coding sometimes it could be simple things over what
 
 ## Installation
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.4.9. I started out doing the angular 5 hero [tutorial](https://angular.io/guide/quickstart) and when I'm ready I will move on and develop this into something I can show new clients or my future employer.
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli). This project also uses yarn to add projects. In order to run this you need to follow a few simple steps.
+
+1. `npm install -g yarn`
+2. clone repo
+3. cd `<target-directory>`
+4. `yarn`
 
 ## Development server
 
