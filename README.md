@@ -1,6 +1,10 @@
-# Mindful Coding
+# Gyfcat Component
 
-I get a lot of anxiety when coding sometimes it could be simple things over what to write to more complicated things like what if I break something. It's not easy to explain but sometimes coding blocks can happen. This is a reminder to myself that they can happen and that even the smallest commits can make the biggest differennces. Anyways Let's see what this becomes.
+Currently I'm building this into my gfycat component chances are i'll fork the project so that you can continue building it.
+
+## Mindful Coding
+
+I get a lot of anxiety when coding, it can make simple projects over what to write to more complicated things like what if I break something. It's not easy to explain but sometimes coding blocks can happen. Anyways Let's see what this becomes. I like to at least see my projects through and finish them to a point that I can actually be proud.
 
 ## Installation
 
