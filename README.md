@@ -1,6 +1,6 @@
 # Gyfcat Component
 
-Currently I'm building this into my gfycat component chances are i'll fork the project so that you can continue building it.
+Currently I'm building this into my gfycat component chances are I'll fork the project so that you can continue building it.
 
 ## Mindful Coding
 
