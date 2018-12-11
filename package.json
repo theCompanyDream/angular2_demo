@@ -1,6 +1,6 @@
 {
   "name": "angular-demo",
-  "version": "0.0.0",
+  "version": "1.5.0",
   "license": "MIT",
   "scripts": {
     "ng": "ng",
@@ -9,6 +9,10 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e"
+  },
+  "engines": {
+    "node" : ">=0.10.11 <0.12",
+    "npm" : "~6.4.1"
   },
   "private": true,
   "dependencies": {
