@@ -1,25 +1,27 @@
-import { RouterModule, Routes } from "@angular/router";
-import { NgModule } from "@angular/core";
+import { RouterModule, Routes } from '@angular/router';
+import { NgModule } from '@angular/core';
 
-import { PagesComponent } from "./pages.component";
+import { PagesComponent } from './pages.component';
+import { NotFoundComponent } from './miscellaneous/not-found/not-found.component';
 
 const routes: Routes = [
   {
-    path: "",
+    path: '',
     component: PagesComponent,
     children: [
       {
-        path: "dashboard",
-        loadChildren: "./dashboard/dashboard.module#DashboardModule"
-      },
-      {
-        path: "error",
-        loadChildren: "./miscellaneous/miscellaneous.module#MiscellaneousModule"
-      },
-      {
-        path: "",
-        redirectTo: "dashboard",
-        pathMatch: "full"
+        path: 'dashboard',
+        loadChildren: './hero-dashboard/hero-dashboard.module#HeroDashboardModlue'
+      }, {
+        path: 'error',
+        loadChildren: './miscellaneous/miscellaneous.module#MiscellaneousModule'
+      }, {
+        path: '',
+        redirectTo: 'dashboard',
+        pathMatch: 'full'
+      }, {
+        path: '**',
+        component: NotFoundComponent
       }
     ]
   }

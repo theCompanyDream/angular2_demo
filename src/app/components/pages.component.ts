@@ -1,7 +1,7 @@
-import { Component } from "@angular/core";
+import { Component } from '@angular/core';
 
 @Component({
-  selector: "ngx-pages",
+  selector: 'ngx-pages',
   template: `
      <router-outlet></router-outlet>
   `

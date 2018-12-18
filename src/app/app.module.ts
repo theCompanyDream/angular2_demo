@@ -6,14 +6,10 @@ import { HttpClientInMemoryWebApiModule } from 'angular-in-memory-web-api';
 import { InMemoryDataService } from './service/in-memory-data-service/in-memory-data.service';
 
 import { AppComponent } from './app.component';
-import { HeroDetailComponent } from './components/hero-dashboard/hero-detail/hero-detail.component';
-import { HeroesComponent } from './components/hero-dashboard/heroes/heroes.component';
 import { HeroService } from './service/hero-service/hero.service';
-import { DashboardComponent } from "./components/hero-dashboard/dashboard/dashboard.component";
+import { MessagesComponent } from './components/messages/messages.component';
 
 import { AppRoutingModule } from './app-routing';
-import { HeroSearchComponent } from "./components/hero-dashboard/hero-search/hero-search.component";
-import { MessagesComponent } from "./components/hero-dashboard/messages/messages.component";
 import { MessageService } from './service/message-service/message.service';
 
 @NgModule({
@@ -32,11 +28,7 @@ import { MessageService } from './service/message-service/message.service';
   ],
   declarations: [
     AppComponent,
-    HeroDetailComponent,
-    HeroesComponent,
-    DashboardComponent,
-    HeroSearchComponent,
-    MessagesComponent
+    MessagesComponent,
     ],
   providers: [
     HeroService, MessageService
